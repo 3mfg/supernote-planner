@@ -31,9 +31,6 @@ function planner_daily_diary_template(TCPDF $pdf, float $margin, float $line_siz
     }
 
     [$offset_x, $offset_y] = planner_draw_note_area($pdf, $start_x + $margin + $half_width, $start_y, $half_width, $height, 'rule', $line_size);
-//    $pdf->setAbsXY($x = $start_x + $margin + $half_width + $offset_x, $y = $start_y + $offset_y - $line_size + $title_offset);
-//    $pdf->Rect($x, $y, $half_width, $title_height, 'F');
-//    $pdf->Cell($half_width, $title_height, Loc::_('daily-log'));
 	$pdf->setAbsXY($x = $start_x + $margin + $half_width + $offset_x, $y = $start_y + $offset_y - $line_size);
     foreach (['daily-energy-powersource', 'daily-energy-thieves', 'daily-improve'] as $key) {
 		$pdf->setAbsXY($x, $y + $title_offset);
