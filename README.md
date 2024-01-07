@@ -42,8 +42,16 @@ I feel is good enough to share. Enjoy.
 
 ## Building
 
+Make sure to copy all font files of folder /fonts/ into folder /vendor/tecnickcom/tcpdf/fonts/
+
+If necessary adapt the (calendar) year in build.php e.g. to $YEAR = 2024;
+
+php make-planner.php de 11000 2023-12 2025-03 "Daily Planner" "2024" MPDP-2024_de.pdf
+will generate a German (de) version, 1st day of week Monday, dotted, 200 extra pages, 24h, day-shift
+
 See `make-planner.php` and `build.php` for other configurations.
 More common configurations are available in Release section.
+
 
 ## License
 
