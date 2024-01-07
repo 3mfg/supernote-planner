@@ -4,7 +4,7 @@ fonts = fonts
     .font2 = opensans
 
 full-date = {$weekday}, {$month} {$date}
-short-date = {$date} {$weekday}
+short-date = {$weekday} | {$date}
 
 month = Month
     .l01 = January
@@ -71,10 +71,13 @@ event = Event
 list = List
 w-task = W:Task
 
-my-goals = MY GOALS
+my-goals = TODAY'S GOALS
 daily-grateful = THINGS I AM GRATEFUL FOR
 daily-best-things = BEST THINGS THAT HAPPENED TODAY
 daily-log = MY DAILY LOG
+daily-energy-powersource = POWER SOURCES
+daily-energy-thieves = ENERGY THIEVES
+daily-improve = TO BE IMPROVED
 
 note-index = Notes Index
 list-index = Lists Index
