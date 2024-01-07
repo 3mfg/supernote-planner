@@ -65,9 +65,9 @@ More common configurations are available in Release section.
 
 
 ## Further Extensions
-Dedicated quarterly level with additional Planner / Notes / Tasks view
+Additional Tasks view for monthly view (done, 240107.2143)
 
-Additional Tasks view for monthly view
+Dedicated quarterly level with additional Planner / Notes / Tasks view
 
 
 ## License
