@@ -25,6 +25,9 @@ class PlannerGenerator implements IGenerator
         foreach (Calendar::iterate_month() as $month) {
             planner_monthly_planner($pdf, $month, $config['note_style']);
         }
+        foreach (Calendar::iterate_month() as $month) {
+            planner_monthly_task($pdf, $month);
+        }
         foreach (Calendar::iterate_week() as $week) {
             planner_weekly_task($pdf, $week);
         }

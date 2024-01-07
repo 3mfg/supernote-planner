@@ -92,7 +92,7 @@ function planner_monthly_note(TCPDF $pdf, Month $month, string $note_style): voi
     $pdf->AddPage();
     $pdf->setLink(Links::monthly($pdf, $month, 'note'));
 
-    planner_monthly_header($pdf, $month, 2, $tabs);
+    planner_monthly_header($pdf, $month, 3, $tabs);
     link_tabs($pdf, $tabs, $tab_targets);
 
     Templates::draw('planner-note', $note_style, ...planner_size_dimensions(2));

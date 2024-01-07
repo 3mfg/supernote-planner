@@ -1,4 +1,10 @@
 <?php
+function planner_monthly_extra_day_link_height(): float
+{
+    return 6;
+}
+
+
 function planner_monthly_header_template(TCPDF $pdf, float $y, float $h, int $active, float $year_margin, array $tabs): void
 {
     $pdf->setLineStyle([
@@ -104,11 +110,13 @@ function planner_make_monthly_tabs(TCPDF $pdf, Month $month): array
     $tabs = [
         ['name' => Loc::_('cal')],
         ['name' => Loc::_('planner')],
+		['name' => Loc::_('task')],
         ['name' => Loc::_('note')],
     ];
     $tab_targets = [
         Links::monthly($pdf, $month),
         Links::monthly($pdf, $month, 'planner'),
+		Links::monthly($pdf, $month, 'task'),
         Links::monthly($pdf, $month, 'note'),
     ];
 
