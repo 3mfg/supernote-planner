@@ -41,12 +41,12 @@ This is revision 3 of my design, and the one
 I feel is good enough to share. Enjoy.
 
 
-## Environment
-PHP v8.1.27 (WIN) - https://windows.php.net/downloads/releases/php-8.1.27-Win32-vs16-x64.zip
+## Environment Setup (Windows)
+PHP v8.1.27 - https://windows.php.net/downloads/releases/php-8.1.27-Win32-vs16-x64.zip
 
 php.ini: enabled extensions: {curl, gd, intl, mbstring, exif, openssl}
 
-OpenSSL v3.0.12 (WIN) - https://slproweb.com/download/Win64OpenSSL-3_2_0.msi
+OpenSSL v3.0.12 - https://slproweb.com/download/Win64OpenSSL-3_2_0.msi
 
 Composer - https://getcomposer.org/Composer-Setup.exe
 
