@@ -19,8 +19,8 @@ function section_event_individual(TCPDF $pdf, $margin, $x, $y, $w, $h, $line_hei
     $per_line = $h / 6;
     $line_width = 0.1;
 
-    $pdf->setFontSize(Size::fontSize($per_line, $line_height));
-
+    $pdf->setFontSize(Size::fontSize($per_line, $line_height)-3);
+	
     $date_text = Loc::_('event-date');
     $loc_text = Loc::_('event-loc');
     $rem_text = Loc::_('event-remark');
