@@ -64,7 +64,7 @@ See `make-planner.php` and `build.php` for other configurations.
 More common configurations are available in Release section.
 
 
-# Further Extensions
+## Further Extensions
 Dedicated quarterly level with additional Planner / Notes / Tasks view
 
 Additional Tasks view for monthly view
